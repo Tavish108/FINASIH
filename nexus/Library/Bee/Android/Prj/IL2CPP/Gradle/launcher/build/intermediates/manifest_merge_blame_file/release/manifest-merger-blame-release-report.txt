@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.nexus"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.touchscreen"
+21-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-52
+22        android:required="false" />
+22-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23
+24    <application
+24-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+25        android:extractNativeLibs="true"
+25-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:18-50
+26        android:icon="@mipmap/app_icon"
+26-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+27        android:label="@string/app_name" >
+27-->D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+28        <activity
+28-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-38:20
+29            android:name="com.unity3d.player.UnityPlayerActivity"
+29-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:13-66
+30            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+30-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:13-194
+31            android:hardwareAccelerated="false"
+31-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:13-48
+32            android:launchMode="singleTask"
+32-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:13-44
+33            android:resizeableActivity="false"
+33-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:13-47
+34            android:screenOrientation="fullUser"
+34-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:13-49
+35            android:theme="@style/UnityThemeSelector" >
+35-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:13-54
+36            <intent-filter>
+36-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:17-69
+37-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:17-77
+39-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:27-74
+40            </intent-filter>
+41
+42            <meta-data
+42-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-34:40
+43                android:name="unityplayer.UnityActivity"
+43-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:17-57
+44                android:value="true" />
+44-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:17-37
+45            <meta-data
+45-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-37:40
+46                android:name="android.notch_support"
+46-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:17-53
+47                android:value="true" />
+47-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:17-37
+48        </activity>
+49
+50        <meta-data
+50-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-42:33
+51            android:name="unity.splash-mode"
+51-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-45
+52            android:value="0" />
+52-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-30
+53        <meta-data
+53-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:9-45:36
+54            android:name="unity.splash-enable"
+54-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-47
+55            android:value="True" />
+55-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-33
+56        <meta-data
+56-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:9-48:36
+57            android:name="unity.launch-fullscreen"
+57-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-51
+58            android:value="True" />
+58-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-33
+59        <meta-data
+59-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:9-51:37
+60            android:name="unity.allow-resizable-window"
+60-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-56
+61            android:value="False" />
+61-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-34
+62        <meta-data
+62-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:9-54:50
+63            android:name="notch.config"
+63-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-40
+64            android:value="portrait|landscape" />
+64-->[:unityLibrary] D:\Innogeeks project 2\nexus\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-47
+65    </application>
+66
+67</manifest>
