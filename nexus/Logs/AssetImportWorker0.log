@@ -1,0 +1,230 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/vaish/Documents/GitHub/FINASIH/nexus
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51541
+Successfully changed project path to: C:/Users/vaish/Documents/GitHub/FINASIH/nexus
+C:/Users/vaish/Documents/GitHub/FINASIH/nexus
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26484] Host "[IP] 10.21.81.47 [Port] 0 [Flags] 2 [Guid] 2370319250 [EditorId] 2370319250 [Version] 1048832 [Id] WindowsEditor(7,pikachu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26484] Host "[IP] 10.21.81.47 [Port] 0 [Flags] 2 [Guid] 2370319250 [EditorId] 2370319250 [Version] 1048832 [Id] WindowsEditor(7,pikachu) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 141.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vaish/Documents/GitHub/FINASIH/nexus/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.2656
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016139 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 543 ms
+Refreshing native plugins compatible for Editor in 159.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1655ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1340ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (1049ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (656ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 96.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.5 KB). Loaded Objects now: 4192.
+Memory consumption went from 142.9 MB to 142.7 MB.
+Total: 3.674500 ms (FindLiveObjects: 0.316500 ms CreateObjectMapping: 0.141000 ms MarkObjects: 3.036800 ms  DeleteObjects: 0.179400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9727.885280 seconds.
+  path: Assets/background image
+  artifactKey: Guid(9a0aae19d21d687459dea216b30b1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background image using Guid(9a0aae19d21d687459dea216b30b1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3553ae40b9f2e843e67f3f6172b6e8') in 0.015123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.384398 seconds.
+  path: Assets/obstacle/avoidable_spike_roller_just_roller_07.png
+  artifactKey: Guid(f184d1a5b6b66db4d85f1ac194f07c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacle/avoidable_spike_roller_just_roller_07.png using Guid(f184d1a5b6b66db4d85f1ac194f07c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2524f69a810d50499c8c201cc96a45c3') in 0.240479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/obstacle/long_wood_spike.png
+  artifactKey: Guid(cce6da8535739d8448112bba82a262f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacle/long_wood_spike.png using Guid(cce6da8535739d8448112bba82a262f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb449f5093a6e90c4501442e5f1c2f8') in 0.050444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/obstacle/long_metal_spike.png
+  artifactKey: Guid(41a00568e3fcfbe4bb0be57f72936a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacle/long_metal_spike.png using Guid(41a00568e3fcfbe4bb0be57f72936a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b44cdb236f5fb507db51232c1a9a21b') in 0.040978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/obstacle/unavoidable_spikes_just_roller_05.png
+  artifactKey: Guid(cbb29fb09d9158a4895c64c3db6e4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacle/unavoidable_spikes_just_roller_05.png using Guid(cbb29fb09d9158a4895c64c3db6e4b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faa5ee8e2d3016beb33f1536b029e0e') in 0.054454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/obstacle/small_metal_spike_01.png
+  artifactKey: Guid(7870d5b2441ca3645bcc516df5d7add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/obstacle/small_metal_spike_01.png using Guid(7870d5b2441ca3645bcc516df5d7add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4332d398f4acc0cc32f187a2cf75cef6') in 0.041432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.406492 seconds.
+  path: Assets/background image/City1 Variant (2) Variant.prefab
+  artifactKey: Guid(554abecd28606e74480a4d274b6df849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background image/City1 Variant (2) Variant.prefab using Guid(554abecd28606e74480a4d274b6df849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807156c3b7715b86fc4c4ce4536004ff') in 0.097748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/background image/City1.png
+  artifactKey: Guid(e65a9ddec589f714ab04f126eecf651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background image/City1.png using Guid(e65a9ddec589f714ab04f126eecf651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b47268aef5763f68c91008230eee3f') in 0.172705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/background image/City3.png
+  artifactKey: Guid(f766fc6c24748d842b4b53667ff5b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background image/City3.png using Guid(f766fc6c24748d842b4b53667ff5b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33f6bc03f8516255d58c573d7842ca0') in 0.171734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/background image/City1.prefab
+  artifactKey: Guid(b44ecbb1e4f824645b1558dc74ec1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background image/City1.prefab using Guid(b44ecbb1e4f824645b1558dc74ec1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da1beff68f3130698a57f3017b4ef30') in 0.031084 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
